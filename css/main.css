@@ -96,9 +96,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  font: 62.5%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #fda454;
+  letter-spacing: .08em;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
 
+#header {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #0495ff;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 1.5rem 0 1rem 2%;
+  position: static;
+}
 
+#header h1 {
+  font-weight: 100;
+}
 
+#nav {
+  display: inline-block;
+  float: left;
+}
+
+#nav ul {
+  display: block;
+  list-style: none;
+}
+
+#nav li {
+  float: left;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 1rem 0 1rem 2rem;
+}
+
+#nav a {
+  color: inherit;
+  text-decoration: none;
+}
 
 
 
