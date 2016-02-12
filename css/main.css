@@ -144,7 +144,29 @@ body {
   text-decoration: none;
 }
 
+#content {
+  padding: 5% 0% 10% 6%;
+  position: static;
+  max-width: 90%;
+  width: 35em;
+}
 
+article {
+  margin-bottom: 4.5rem;
+}
+
+#content p {
+  margin-bottom: 1.6rem;
+  text-align: justify;
+}
+
+#footer {
+  background-color: #574742;
+  border-top: 5px solid hsl(350, 51%, 62%);
+  color: #fff;
+  padding: 1.5rem 6%;
+  font-size: 13px;
+}
 
 
 
